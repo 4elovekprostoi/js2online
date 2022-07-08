@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" class="console-text" placeholder="текст в консоль">
+    <button class="button">BUTTON</button>
+    <div>
+        <a href="https://www.google.com/" title="">Текст первой ссылки</a>
+    </div>
+    <div>
+        <a href="https://www.apple.com/" title="">Текст второй ссылки</a>
+    </div>
+    <div>
+        <a href="https://www.youtube.com/" title="">Текст третьей ссылки</a>
+    </div>
+    <button class="btn">Press to hide</button>
+    <div class="wrap">
+        <input type="text" class="validation-input" placeholder="пиксели для круга">
+        <button class="validation-button">START</button>
+        <div class="circle-wrap">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <div class="wrap-btn">
+        <button onclick="logDataAttr(event)">First</button>
+        <button onclick="logDataAttr(event)" data-number="1">Second</button>
+        <button onclick="logDataAttr(event)" data-item="0" data-test="parapragh" data-color="red">Third</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
